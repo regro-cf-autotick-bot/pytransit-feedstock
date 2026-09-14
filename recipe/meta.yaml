@@ -23,14 +23,14 @@ requirements:
   run:
     - python >={{ python_min }}
     - arviz
-    - numpy
+    - numpy >=2.0.0
     - scipy
     - pandas
     - xarray
-    - pytables
+    - tables
     - uncertainties
     - numba
-    - astropy
+    - astropy-base
     - matplotlib-base
     - tqdm
     - semantic_version
@@ -41,7 +41,7 @@ requirements:
     - pyopencl
     - corner
     - celerite
-    - meepmeep
+    - meepmeep >=0.8.0
 
 test:
   imports:
